@@ -1,0 +1,41 @@
+.tehno{
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.t_divs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.t_div{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: left;
+}
+.t_div h3{
+font-size: 18px;
+font-weight: 600;
+line-height: 19.57px;
+color: $twelve;
+}
+.t_div h4{
+font-size: 16px;
+font-weight: 300;
+line-height: 20.8px;
+color: $twelve;
+}
+
+@media(max-width:1000px){
+    .t_divs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+}
