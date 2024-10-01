@@ -1,111 +1,396 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>fcMOTO</title>
-    <link rel="shortcut icon" href="./svg/logotive.svg" type="image/x-icon">
-    <link rel="stylesheet" href="./assets/css/style.css">
-</head>
-<body>
-                                                       
+    <link rel="shortcut icon" href="./svg/logotive.svg" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
     <header class="header">
-        <div class="container">
+      <div class="container">
         <nav class="navbar">
-            <div class="navbar_logo">
-                <a href="./index.html">
-                    <img src="./svg/logotive.svg" alt="">
-                </a>
+          <div class="navbar_logo">
+            <a href="./index.html">
+              <img src="./svg/logotive.svg" alt="" />
+            </a>
+          </div>
+
+          <div class="navbar_links">
+            <input type="checkbox" class="sheckbox" id="check" />
+            <ul class="links">
+              <li><a href="#">Маршруты</a></li>
+              <li><a href="#">Галерея</a></li>
+              <li><a href="#">Вопрос-Ответ </a></li>
+              <li><a href="#">Контакты</a></li>
+              <li><a href="#">Забронировать</a></li>
+            </ul>
+          </div>
+
+          <div class="navbar_items">
+            <div class="navbar_inside1">
+              <img src="./svg/phone.svg" alt="" />
+              <a href="tel:+7 928 333 26 45">+7 928 333 26 45</a>
             </div>
 
-            <div class="navbar_links">
-                <input type="checkbox" class="sheckbox" id="check">
-                <ul class="links">
-                    <li><a href="#">Маршруты</a></li>
-                    <li><a href="#">Галерея</a></li>
-                    <li><a href="#">Вопрос-Ответ </a></li>
-                    <li><a href="#">Контакты</a></li>
-                    <li><a href="#">Забронировать</a></li>
-                </ul>
+            <div class="navbar_inside1">
+              <button class="navbar_btn" type="button">Перезвоните мне</button>
             </div>
+          </div>
 
-            <div class="navbar_items">
-                <div class="navbar_inside1">
-                    <img src="./svg/phone.svg" alt="">
-                    <a href="tel:+7 928 333 26 45">+7 928 333 26 45</a>
-                </div>
-
-                <div class="navbar_inside1">
-                    <button class="navbar_btn" type="button">Перезвоните мне</button>
-                </div>
-
-            </div>
-
-            <div class="div_for_menu">
-                <label for="check">
-                    <img src="./svg/burger-menu-right-svgrepo-com (5).svg" alt="">
-                </label>
-            </div>
-
+          <div class="div_for_menu">
+            <label for="check">
+              <img src="./svg/burger-menu-right-svgrepo-com (5).svg" alt="" />
+            </label>
+          </div>
         </nav>
-<!-- **************************************************************************** -->
-
+        <!-- **************************************************************************** -->
 
         <div class="showcase">
-            <h1>Экскурсии на
-квадроциклах
-в Геленджике</h1>
+          <h1>Экскурсии на квадроциклах в Геленджике</h1>
 
-       <p>приезжайте за новыми ощущениями и эмоциями!</p>
+          <p>приезжайте за новыми ощущениями и эмоциями!</p>
 
-        <button class="showcase_btn" type="button">Подобрать маршрут</button>
+          <button class="showcase_btn" type="button">Подобрать маршрут</button>
         </div>
-
-        </div>
+      </div>
     </header>
 
     <main>
-        <section class="tehno">
-            <div class="container">
-                <div class="t_divs">
-
-                    <div class="t_div">
-                        <div class="tehno_img_div">
-                            <img src="./svg/t1.svg" alt="">
-                        </div>
-                        <h3>Увлекательные экскурсии</h3>
-                        <h4>Маршруты от лесных дорожек до полного бездорожья!</h4>
-                    </div>
-                    
-
-                    <div class="t_div">
-                        <div class="tehno_img_div">
-                            <img src="./svg/t2.svg" alt="">
-                        </div>
-                        <h3>Надежная техника</h3>
-                        <h4>18 квадроциклов всех японских брендов</h4>
-                    </div>
-
-                    <div class="t_div">
-                        <div class="tehno_img_div">
-                            <img src="./svg/t3.svg" alt="">
-                        </div>
-                        <h3>Экипировка бесплатно</h3>
-                        <h4>Необходимая экипировка выдается бесплатно</h4>
-                    </div>
-
-                    <div class="t_div">
-                        <div class="tehno_img_div">
-                            <img src="./svg/t4.svg" alt="">
-                        </div>
-                        <h3>Опытные инструктора</h3>
-                        <h4>Обеспечат полную безопасность Вашего отдыха</h4>
-                    </div>
-
-                </div>
+      <section class="tehno">
+        <div class="container">
+          <div class="t_divs">
+            <div class="t_div">
+              <div class="tehno_img_div">
+                <img src="./svg/t1.svg" alt="" />
+              </div>
+              <h3>Увлекательные экскурсии</h3>
+              <h4>Маршруты от лесных дорожек до полного бездорожья!</h4>
             </div>
-        </section>
+
+            <div class="t_div">
+              <div class="tehno_img_div">
+                <img src="./svg/t2.svg" alt="" />
+              </div>
+              <h3>Надежная техника</h3>
+              <h4>18 квадроциклов всех японских брендов</h4>
+            </div>
+
+            <div class="t_div">
+              <div class="tehno_img_div">
+                <img src="./svg/t3.svg" alt="" />
+              </div>
+              <h3>Экипировка бесплатно</h3>
+              <h4>Необходимая экипировка выдается бесплатно</h4>
+            </div>
+
+            <div class="t_div">
+              <div class="tehno_img_div">
+                <img src="./svg/t4.svg" alt="" />
+              </div>
+              <h3>Опытные инструктора</h3>
+              <h4>Обеспечат полную безопасность Вашего отдыха</h4>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="our">
+        <div class="container">
+          <div class="our_title">
+            <h2>Наши маршруты</h2>
+          </div>
+
+          <div class="our_left_and_right">
+            <div class="our_left">
+              <div class="h2_h4">
+                <h2>БАЗОВЫЙ</h2>
+                <h4>от 4000 P</h4>
+              </div>
+
+              <div class="big_div">
+                <div class="small_div">
+                  <img src="./svg/o1.svg" alt="" />
+                  <h4>Время в пути: 1,5 - 2 часа</h4>
+                </div>
+
+                <div class="small_div">
+                  <img src="./svg/o2.svg" alt="" />
+                  <h4>Расстояние: 20 - 25 км</h4>
+                </div>
+
+                <div class="small_div">
+                  <img src="./svg/o3.svg" alt="" />
+                  <h4>Сложность: 5***</h4>
+                </div>
+              </div>
+
+              <div class="marshut">
+                <div class="marshut_inside">
+                  <h2>маршрут</h2>
+                  <img src="./svg/marshut.svg" alt="" />
+                </div>
+                <p>
+                  Смотровая - Родник - Камень Джигита - Адербиевка - Гора Нексис
+                  - -Грозовые Ворота - Шашлыки - Цыгельский водопад (чаша любви)
+                  - -Форсаж
+                </p>
+              </div>
+
+              <div class="two_div">
+                <button class="our_btn1" type="button">Подробнее</button>
+                <button class="our_btn2" type="button">Забронировать</button>
+              </div>
+            </div>
+
+            <div class="our_right">
+              <!-- Swiper -->
+              <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <!-- 1 -->
+                  <div class="swiper-slide">
+                    <img src="./svg/m1.svg" alt="" />
+                  </div>
+                  <!-- 2 -->
+                  <div class="swiper-slide">
+                    <img src="./svg/m11.svg" alt="" />
+                  </div>
+                  <!-- 3 -->
+                  <div class="swiper-slide">
+                    <img src="./svg/m111.svg" alt="" />
+                  </div>
+                  <!-- 4 -->
+                  <div class="swiper-slide">
+                    <img src="./svg/m1.svg" alt="" />
+                  </div>
+                  <!-- 5 -->
+                  <div class="swiper-slide">
+                    <img src="./svg/m11.svg" alt="" />
+                  </div>
+                  <!-- 6 -->
+                  <div class="swiper-slide">
+                    <img src="./svg/m111.svg" alt="" />
+                  </div>
+                  <!-- 7 -->
+                  <div class="swiper-slide">
+                    <img src="./svg/m1.svg" alt="" />
+                  </div>
+                  <!-- 8 -->
+                  <div class="swiper-slide">
+                    <img src="./svg/m11.svg" alt="" />
+                  </div>
+                  <!-- 9 -->
+                  <div class="swiper-slide">
+                    <img src="./svg/m111.svg" alt="" />
+                  </div>
+                </div>
+                <!-- <div class="swiper-pagination"></div> -->
+              </div>
+            </div>
+
+            <div class="our_left order1">
+              <div class="h2_h4">
+                <h2>БАЗОВЫЙ</h2>
+                <h4>от 4000 P</h4>
+              </div>
+
+              <div class="big_div">
+                <div class="small_div">
+                  <img src="./svg/o1.svg" alt="" />
+                  <h4>Время в пути: 1,5 - 2 часа</h4>
+                </div>
+
+                <div class="small_div">
+                  <img src="./svg/o2.svg" alt="" />
+                  <h4>Расстояние: 20 - 25 км</h4>
+                </div>
+
+                <div class="small_div">
+                  <img src="./svg/o3.svg" alt="" />
+                  <h4>Сложность: 5***</h4>
+                </div>
+              </div>
+
+              <div class="marshut">
+                <div class="marshut_inside">
+                  <h2>маршрут</h2>
+                  <img src="./svg/marshut.svg" alt="" />
+                </div>
+                <p>
+                  Смотровая - Родник - Камень Джигита - Адербиевка - Гора Нексис
+                  - -Грозовые Ворота - Шашлыки - Цыгельский водопад (чаша любви)
+                  - -Форсаж
+                </p>
+              </div>
+
+              <div class="two_div">
+                <button class="our_btn1" type="button">Подробнее</button>
+                <button class="our_btn2" type="button">Забронировать</button>
+              </div>
+            </div>
+
+            <div class="our_right order2">
+              <!-- Swiper -->
+              <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <!-- 1 -->
+                  <div class="swiper-slide">
+                    <img src="./svg/m111.svg" alt="" />
+                  </div>
+                  <!-- 2 -->
+                  <div class="swiper-slide">
+                    <img src="./svg/m11.svg" alt="" />
+                  </div>
+                  <!-- 3 -->
+                  <div class="swiper-slide">
+                    <img src="./svg/m1.svg" alt="" />
+                  </div>
+                  <!-- 4 -->
+                  <div class="swiper-slide">
+                    <img src="./svg/m111.svg" alt="" />
+                  </div>
+                  <!-- 5 -->
+                  <div class="swiper-slide">
+                    <img src="./svg/m11.svg" alt="" />
+                  </div>
+                  <!-- 6 -->
+                  <div class="swiper-slide">
+                    <img src="./svg/m1.svg" alt="" />
+                  </div>
+                  <!-- 7 -->
+                  <div class="swiper-slide">
+                    <img src="./svg/m111.svg" alt="" />
+                  </div>
+                  <!-- 8 -->
+                  <div class="swiper-slide">
+                    <img src="./svg/m11.svg" alt="" />
+                  </div>
+                  <!-- 9 -->
+                  <div class="swiper-slide">
+                    <img src="./svg/m1.svg" alt="" />
+                  </div>
+                </div>
+                <!-- <div class="swiper-pagination"></div> -->
+              </div>
+            </div>
+
+            <div class="our_left">
+              <div class="h2_h4">
+                <h2>БАЗОВЫЙ</h2>
+                <h4>от 4000 P</h4>
+              </div>
+
+              <div class="big_div">
+                <div class="small_div">
+                  <img src="./svg/o1.svg" alt="" />
+                  <h4>Время в пути: 1,5 - 2 часа</h4>
+                </div>
+
+                <div class="small_div">
+                  <img src="./svg/o2.svg" alt="" />
+                  <h4>Расстояние: 20 - 25 км</h4>
+                </div>
+
+                <div class="small_div">
+                  <img src="./svg/o3.svg" alt="" />
+                  <h4>Сложность: 5***</h4>
+                </div>
+              </div>
+
+              <div class="marshut">
+                <div class="marshut_inside">
+                  <h2>маршрут</h2>
+                  <img src="./svg/marshut.svg" alt="" />
+                </div>
+                <p>
+                  Смотровая - Родник - Камень Джигита - Адербиевка - Гора Нексис
+                  - -Грозовые Ворота - Шашлыки - Цыгельский водопад (чаша любви)
+                  - -Форсаж
+                </p>
+              </div>
+
+              <div class="two_div">
+                <button class="our_btn1" type="button">Подробнее</button>
+                <button class="our_btn2" type="button">Забронировать</button>
+              </div>
+            </div>
+
+            <div class="our_right">
+              <!-- Swiper -->
+              <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <!-- 1 -->
+                  <div class="swiper-slide">
+                    <img src="./svg/m1.svg" alt="" />
+                  </div>
+                  <!-- 2 -->
+                  <div class="swiper-slide">
+                    <img src="./svg/m11.svg" alt="" />
+                  </div>
+                  <!-- 3 -->
+                  <div class="swiper-slide">
+                    <img src="./svg/m111.svg" alt="" />
+                  </div>
+                  <!-- 4 -->
+                  <div class="swiper-slide">
+                    <img src="./svg/m1.svg" alt="" />
+                  </div>
+                  <!-- 5 -->
+                  <div class="swiper-slide">
+                    <img src="./svg/m11.svg" alt="" />
+                  </div>
+                  <!-- 6 -->
+                  <div class="swiper-slide">
+                    <img src="./svg/m111.svg" alt="" />
+                  </div>
+                  <!-- 7 -->
+                  <div class="swiper-slide">
+                    <img src="./svg/m1.svg" alt="" />
+                  </div>
+                  <!-- 8 -->
+                  <div class="swiper-slide">
+                    <img src="./svg/m11.svg" alt="" />
+                  </div>
+                  <!-- 9 -->
+                  <div class="swiper-slide">
+                    <img src="./svg/m111.svg" alt="" />
+                  </div>
+                </div>
+                <!-- <div class="swiper-pagination"></div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
     </main>
 
-</body>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+    </script>
+  </body>
 </html>
